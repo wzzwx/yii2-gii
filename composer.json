@@ -1,0 +1,25 @@
+{
+    "name": "wzzwx/yii2-gii",
+    "type": "yii2-extension",
+    "description": "gii template",
+    "keywords": ["yii2", "gii"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "wangzheng",
+            "email": "wz152309246@163.com"
+        }
+    ],
+    "require": {
+        "johnitvn/yii2-ajaxcrud": "*",
+        "wzzwx/yii2-common": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "wzzwx\\yii2gii\\": "src/"
+        }
+    },
+    "extra": {
+        "bootstrap": "wzzwx\\yii2gii\\Bootstrap"
+    }
+}
